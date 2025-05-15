@@ -97,10 +97,6 @@ Run model training directly:
 python kafka/consumer_trainer.py
 ```
 
-## ⚠️ Notes
-
-- Replace `sys.path.append("/path/to/your/project")` in the DAG file with your actual path.
-- BigDL may require Java/Spark configurations. See [BigDL docs](https://bigdl.readthedocs.io) for setup.
 
 ## 📄 License
 
