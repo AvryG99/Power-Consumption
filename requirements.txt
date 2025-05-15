@@ -1,0 +1,6 @@
+bigdl
+apache-airflow
+pandas
+kafka-python
+scikit-learn
+torch

@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+
+
+# Airflow
+airflow.cfg
+airflow.db
+logs/
+*.pid
+
+# Kafka and ZooKeeper logs (if running locally)
+kafka-logs/
+zookeeper-logs/
+
+# PyTorch / BigDL / model artifacts
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.pb
+
+# Datasets (optional - keep if large or replace with sample)
+data/power-consumption.csv
+
+
